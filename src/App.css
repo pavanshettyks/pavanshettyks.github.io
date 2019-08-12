@@ -30,7 +30,13 @@ Header{
 }
 
 .profile_pic{
-  height:200px;
+  display: flex;
+  align-items: center;
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 @keyframes App-logo-spin {
