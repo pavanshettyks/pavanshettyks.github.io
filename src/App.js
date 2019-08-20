@@ -1,30 +1,38 @@
 import React from 'react';
 
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import { Link } from 'react-router-dom';
+import { Layout, Header, Navigation,  Content } from 'react-mdl';
+//import { Link } from 'react-router-dom';
 
 import Main from './components/Main'
-import profile from './image/profile.jpg'
+
+function scrollSmoothTo(e,id) {
+  e.preventDefault();
+ // console.log(e);
+
+  var element = document.getElementById(id);
+  element.scrollIntoView({
+    block: 'start',
+    behavior: 'smooth'
+  });
+}
 
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
+    <div >
     <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}> </span><strong> Pavan Kumar K S</strong> </span>}>
+        <Header title={<a  onClick= {(e)=> scrollSmoothTo(e,'home')} href="#home" id="title"><span><strong> Pavan Kumar K S</strong> </span> </a>}>
             <Navigation>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/skills">Skills</Link>
-                <Link to="/contact">Contact Pavan</Link>
+           
+                <a onClick= {(e)=> scrollSmoothTo(e,'aboutme')} href="#aboutme">About Me</a>
+                <a onClick= {(e)=> scrollSmoothTo(e,'projects')}href="#projects">Projects</a>
+                <a onClick= {(e)=> scrollSmoothTo(e,'skills')}  href="#skills">Skills</a>
+                <a onClick= {(e)=> scrollSmoothTo(e,'contact')} href="#contact">Contact Pavan</a>
             </Navigation>
             
         </Header>
-            <div>
-                <img src= {profile} alt ='avatar' className = "profile_pic" />
-            </div>
-
+            
         <Content > 
            <Main/>
         </Content>
