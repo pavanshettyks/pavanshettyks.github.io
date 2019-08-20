@@ -1,8 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background: #780206; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #780206, #061161); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #8b1d1f, hsl(233, 70%, 22%));
+
 }
 
 .App {
@@ -37,6 +35,18 @@ Header{
   background: linear-gradient(to right, #780206, #061161);
 }
 
+#home{
+  height:100vh;
+  width:100%;
+  display: flex ;
+  flex-direction: column;
+  color: rgb(187, 184, 184);
+  background: #780206; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #780206, #061161); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8b1d1f, hsl(233, 70%, 22%));
+
+}
+
 
 .profileDiv{
   flex:1;
@@ -45,17 +55,67 @@ Header{
   align-items: center;
   justify-content: center;
   align-content: center;
+  margin:5px; 
 
 }
+
+.landing-grid {
+
+ margin: auto;
+}
+
 
 
 .profile_pic{
 
-  height:150px;
-  width:150px;
+  height:250px;
+  width:250px;
   border-radius: 50%;
   padding: 10px;
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.banner-text-div{
+  background: -webkit-linear-gradient(to right, #791d20, #242c69); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right , #242c69 , #791d20);
+ opacity: 0.7;
+ border-radius: 10px;
+ padding: 10px;
+ text-align: center;
+}
+
+.banner-text-div h1{
+  font-size: 60px;
+  font-weight: bold;
+  color:#cacaca;
+  margin: 0;
+}
+
+.banner-text-div hr{
+  border-top: 4px dotted;
+  color:rgb(243, 233, 233);
+  width: 80%;
+  display: inline-block;
+}
+
+.banner-text-div p {
+  color: white;
+  font-size: 20px;
+  padding: 0.5em;
+}
+
+.sociallinks-div{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.sociallinks-div i{
+  color:#cacaca;
+  font-size: 3em;
+  padding: 4px;
 }
 
 .ContactDiv{
@@ -63,17 +123,13 @@ Header{
 }
 
 #title{
-  color:rgb(248, 241, 241);
+  color:rgb(214, 203, 203);
   text-decoration: none;
+  text-align: left;
+  align-items: flex-start;
 }
 
-#home{
-  height:100vh;
-  display: flex ;
-  flex-direction: column;
-  color: rgb(187, 184, 184);
 
-}
 
 #skills {
   height:100vh;

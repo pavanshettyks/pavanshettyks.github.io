@@ -22,7 +22,7 @@ function App() {
   return (
     <div >
     <Layout fixedHeader>
-        <Header title={<a  onClick= {(e)=> scrollSmoothTo(e,'home')} href="#home" id="title"><span><strong> Pavan Kumar K S</strong> </span> </a>}>
+        <Header title={<a  onClick= {(e)=> scrollSmoothTo(e,'home')} href="#home" id="title"><strong> Pavan Kumar K S</strong></a>}>
             <Navigation>
            
                 <a onClick= {(e)=> scrollSmoothTo(e,'aboutme')} href="#aboutme">About Me</a>

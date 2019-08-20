@@ -11,9 +11,10 @@ export default function Main() {
     return (
         <div >
                 <LandingPage />
+                <AboutMe />
                 <Projects />
                 <Skills />  
-                 <AboutMe />
+                 
                  <ContactMe id="contact"/>
         </div>
     )
