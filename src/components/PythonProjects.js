@@ -8,63 +8,51 @@ export default function PythonProjects() {
         <Grid> 
            
             <Cell col={4}> 
-            <Card shadow={4} style={{ margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '160px', background: `url(${LogoPython}) center / cover`}}>Time Table Scheduler</CardTitle>
-                <CardText>
-                       Time Table Scheduler to assign work for individuals. This react applcation uses Redux and Google Firebase.
-                </CardText>
-                <CardActions border>
-                        <Button href ="https://github.com/pavanshettyks/scheduler" target="_blank" colored>View on Github</Button>
-                </CardActions>
-               {/*  <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu> */}
-            </Card>
+                <Card shadow={4} style={{ margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '160px', background: `url(${LogoPython}) center / cover`}}>Auto Enroll</CardTitle>
+                    <CardText>
+                        Automation of enrolling to CSU Fullerton classes using python and selenium-python. 
+                        Application requires Google Chrome...
+                    </CardText>
+                    <CardActions border>
+                            <Button href ="https://github.com/pavanshettyks/Auto_Enroll" target="_blank" colored>View on Github</Button>
+                    </CardActions>
+                {/*  <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu> */}
+                </Card>
             </Cell>
 
             <Cell col={4}> 
-            <Card shadow={4} style={{ margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '160px', background: `url(${LogoPython}) center / cover`}}>Portfolio Site</CardTitle>
-                <CardText>
-                        Personal portfolio Website built using ReactJS using react material design library.
-                </CardText>
-                <CardActions border>
-                        <Button href ="https://github.com/pavanshettyks/my-portfolio" target="_blank" colored>View on Github</Button>
-                </CardActions>
-               {/*  <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu> */}
-            </Card>
+                <Card shadow={4} style={{ margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '160px', background: `url(${LogoPython}) center / cover`}}>Face Recogition</CardTitle>
+                    <CardText>
+                            Python Face Recogition application dlib's face_recognition library.
+                            Application needs to be trained with sample data.
+                    </CardText>
+                    <CardActions border>
+                            <Button href ="https://github.com/pavanshettyks/Face-Recognition" target="_blank" colored>View on Github</Button>
+                    </CardActions>
+                {/*  <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu> */}
+                </Card>
             </Cell>
 
             <Cell col={4}> 
-            <Card shadow={4} style={{ margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '160px', background: `url(${LogoPython}) center / cover`}}>Simple Inventory Manager</CardTitle>
-                <CardText>
-                        React Application to manage the Inventory of Signages. This application uses
-                        Google Firebase for real-time database.
-                </CardText>
-                <CardActions border>
-                        <Button href ="https://github.com/pavanshettyks/count-signs" target="_blank" colored>View on Github</Button>
-                </CardActions>
-               {/*  <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu> */}
-            </Card>
-            </Cell>
-            <Cell col={4}> 
-            <Card shadow={4} style={{ margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '160px', background: `url(${LogoPython}) center / cover`}}>To Do List</CardTitle>
-                <CardText>
-                        Simple To Do List application built using React JS
-                </CardText>
-                <CardActions border>
-                        <Button href ="https://github.com/pavanshettyks/to-do-list" target="_blank" colored>View on Github</Button>
-                </CardActions>
-               {/*  <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu> */}
-            </Card>
+                <Card shadow={4} style={{ margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '160px', background: `url(${LogoPython}) center / cover`}}>Face Recogition using OpenCV</CardTitle>
+                    <CardText>
+                            Python Face Recogition application openCV library.
+                            Application needs to be trained with sample data.
+                    </CardText>
+                    <CardActions border>
+                            <Button href ="https://github.com/pavanshettyks/Face-Recognition-using-OpenCV" target="_blank" colored>View on Github</Button>
+                    </CardActions>
+                {/*  <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu> */}
+                </Card>
             </Cell>
 
        </Grid>    

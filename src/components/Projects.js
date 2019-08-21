@@ -8,7 +8,7 @@ import PythonProjects from './PythonProjects'
 class Projects extends Component {
     constructor(props){
         super(props);
-        this.state = { activeTab: 3 };
+        this.state = { activeTab: 0 };
     }
 
     toggleTabs(){
