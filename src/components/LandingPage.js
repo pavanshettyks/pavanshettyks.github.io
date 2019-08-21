@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../image/profile.jpg'
+import profile from '../images/profile.jpg'
 import { Grid, Cell } from 'react-mdl';
 
 export default function LandingPage() {

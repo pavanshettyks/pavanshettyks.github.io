@@ -38,8 +38,6 @@ Header{
 #home{
   height:100vh;
   width:100%;
-  display: flex ;
-  flex-direction: column;
   color: rgb(187, 184, 184);
   background: #780206; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #780206, #061161); /* Chrome 10-25, Safari 5.1-6 */
@@ -55,7 +53,7 @@ Header{
   align-items: center;
   justify-content: center;
   align-content: center;
-  margin:5px; 
+
 
 }
 
@@ -65,6 +63,12 @@ Header{
 }
 
 
+#title{
+  color:rgb(214, 203, 203);
+  text-decoration: none;
+  text-align: left;
+  align-items: flex-start;
+}
 
 .profile_pic{
 
@@ -79,7 +83,7 @@ Header{
 .banner-text-div{
   background: -webkit-linear-gradient(to right, #791d20, #242c69); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right , #242c69 , #791d20);
- opacity: 0.7;
+ opacity: 0.9;
  border-radius: 10px;
  padding: 10px;
  text-align: center;
@@ -118,16 +122,22 @@ Header{
   padding: 4px;
 }
 
+#projects {
+  height:100vh;
+}
+
+.project-grids{
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-flow: row-reverse;
+}
+
 .ContactDiv{
   height:100vh;
 }
 
-#title{
-  color:rgb(214, 203, 203);
-  text-decoration: none;
-  text-align: left;
-  align-items: flex-start;
-}
 
 
 
@@ -136,9 +146,7 @@ Header{
 
 }
 
-#projects {
-  height:100vh;
-}
+
 
 #contact{
   height:100vh;
