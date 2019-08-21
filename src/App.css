@@ -47,7 +47,16 @@ Header{
 }
 
 @media screen and (max-width: 600px) {
-  #myNavdisplay {position: relative; background-color: #780206; display: flex; flex-direction: column;}
+  #myNavdisplay {
+    position: absolute; background-color: #780206; display: flex; 
+    flex-direction: column;
+    height: 280px;
+    margin:0;
+    top:0px;
+    right: 3px;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
   #myNavdisplay #iconNav {
     margin-top: 20%;
     right: 0;
