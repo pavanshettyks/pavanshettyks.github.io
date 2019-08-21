@@ -20,11 +20,12 @@ function scrollSmoothTo(e,id) {
 
 function myFunction(e){
   e.preventDefault();
+
   if(document.getElementById("myNav")){
     let x = document.getElementById("myNav");
     x.id += "display";
   }
-  else if(document.getElementById("myNav")){
+  else if(document.getElementById("myNavdisplay")){
     let x = document.getElementById("myNavdisplay");
     x.id = "myNav";
   }
