@@ -39,9 +39,16 @@ Header{
   display: none;
 }
 
+#myNavdisplay #iconNav {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   #myNav a {display: none;}
   #myNav #iconNav {
+    display: block;
+  }
+  #myNavdisplay #iconNav {
     display: block;
   }
 }
@@ -67,6 +74,13 @@ Header{
     display: block;
     text-align: right;
 
+  }
+}
+
+@media screen and (max-width: 600px){
+  .mdl-layout__header-row {
+
+      padding: 0 16px 0 30px !important;
   }
 }
 
@@ -103,7 +117,9 @@ Header{
   text-decoration: none;
   text-align: left;
   align-items: flex-start;
+
 }
+
 
 .profile_pic{
 

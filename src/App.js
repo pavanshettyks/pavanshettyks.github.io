@@ -6,19 +6,9 @@ import { Layout, Header, Navigation,  Content } from 'react-mdl';
 
 import Main from './components/Main'
 
-function scrollSmoothTo(e,id) {
-  e.preventDefault();
- // console.log(e);
-
-  var element = document.getElementById(id);
-  element.scrollIntoView({
-    block: 'start',
-    behavior: 'smooth'
-  });
-}
 
 
-function myFunction(e){
+function changeNavBar(e){
   e.preventDefault();
 
   if(document.getElementById("myNav")){
@@ -32,13 +22,25 @@ function myFunction(e){
 
 }
 
+
+function scrollSmoothTo(e,id) {
+  e.preventDefault();
+ // console.log(e);
+ changeNavBar(e)
+  var element = document.getElementById(id);
+  element.scrollIntoView({
+    block: 'start',
+    behavior: 'smooth'
+  });
+}
+
 function App() {
   return (
     <div >
     <Layout fixedHeader>
-        <Header title={<a  onClick= {(e)=> scrollSmoothTo(e,'home')} href="#home" id="title"><strong> Pavan Kumar K S</strong></a>}>
+        <Header title={<a  onClick= {(e)=> scrollSmoothTo(e,'home')} href="#home" id="title"><strong> Pavan Kumar K S</strong></a>} >
             <Navigation  className="myNav" id="myNav">
-                <a href="#1" id ="iconNav" onClick= {(e)=> myFunction(e)}>
+                <a href="#1" id ="iconNav" onClick= {(e)=> changeNavBar(e)}>
                     <i className ="fa fa-bars"></i>
                 </a>
                 <a onClick= {(e)=> scrollSmoothTo(e,'aboutme')} href="#aboutme">About Me</a>
