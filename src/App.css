@@ -77,6 +77,14 @@ Header{
   }
 }
 
+
+@media screen and (min-width: 600px){
+  .myNav a:hover{
+    background-color: #02093d
+  }
+}
+
+
 @media screen and (max-width: 600px){
   .mdl-layout__header-row {
 
@@ -118,6 +126,13 @@ Header{
   text-align: left;
   align-items: flex-start;
 
+}
+
+@media screen and (min-width: 600px){
+  #title :hover{
+    color:rgb(248, 244, 244);
+    font-size: 25px;
+  }
 }
 
 
