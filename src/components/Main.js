@@ -15,7 +15,7 @@ export default function Main() {
                 <Projects />
                 <Skills />  
                  
-                 <ContactMe id="contact"/>
+                 <ContactMe />
         </div>
     )
 }

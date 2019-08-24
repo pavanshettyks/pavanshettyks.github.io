@@ -26,7 +26,10 @@ function changeNavBar(e){
 function scrollSmoothTo(e,id) {
   e.preventDefault();
  // console.log(e);
- changeNavBar(e)
+ if(document.getElementById("myNavdisplay")){
+  let x = document.getElementById("myNavdisplay");
+  x.id = "myNav";
+}
   var element = document.getElementById(id);
   element.scrollIntoView({
     block: 'start',
@@ -46,7 +49,7 @@ function App() {
                 <a onClick= {(e)=> scrollSmoothTo(e,'aboutme')} href="#aboutme">About Me</a>
                 <a onClick= {(e)=> scrollSmoothTo(e,'projects')}href="#projects">Projects</a>
                 <a onClick= {(e)=> scrollSmoothTo(e,'skills')}  href="#skills">Skills</a>
-                <a onClick= {(e)=> scrollSmoothTo(e,'contact')} href="#contact">Contact Pavan</a>
+                <a onClick= {(e)=> scrollSmoothTo(e,'contact')} href="#contact">Contact</a>
                 
             </Navigation>
             
