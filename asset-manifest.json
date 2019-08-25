@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1cd5814.chunk.css",
+    "main.js": "/static/js/main.35ba1829.chunk.js",
+    "main.js.map": "/static/js/main.35ba1829.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.55ec1482.js",
+    "runtime~main.js.map": "/static/js/runtime~main.55ec1482.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.2bb7298d.chunk.js": "/static/js/2.2bb7298d.chunk.js",
+    "static/js/2.2bb7298d.chunk.js.map": "/static/js/2.2bb7298d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5ab93edbe1cd598b1f87b44849538065.js": "/precache-manifest.5ab93edbe1cd598b1f87b44849538065.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.c1cd5814.chunk.css.map": "/static/css/main.c1cd5814.chunk.css.map",
+    "static/media/LogoPython.png": "/static/media/LogoPython.e4bf3aca.png",
+    "static/media/LogoReact.png": "/static/media/LogoReact.68b835f8.png",
+    "static/media/LogoReactNative.jpg": "/static/media/LogoReactNative.5499d0ef.jpg",
+    "static/media/Pavan_Kumar_Resume.pdf": "/static/media/Pavan_Kumar_Resume.0e6760ae.pdf",
+    "static/media/profile.jpg": "/static/media/profile.7834a0cd.jpg"
+  }
+}
