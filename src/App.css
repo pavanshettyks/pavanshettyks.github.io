@@ -231,7 +231,7 @@ Header{
   padding:0px 2px 0px 115px;
   flex:2.5;
 }
-#education hr{
+#aboutme hr{
   border-Top: 3px solid #e22947;
   width: 98%;
 }
@@ -243,12 +243,19 @@ Header{
 
 #skills {
   height:90vh;
-  flex:1;
+  flex:1.5;
   padding-left: 10px;
   margin-top: 5px;
   border-left: 2px solid rgb(235, 229, 229);
 
 }
+#skill {
+ 
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
 
 @media screen and (max-width: 600px) {
   #aboutme{
@@ -264,11 +271,13 @@ Header{
   #skills {
     height:90vh;
     flex:1;
-    padding-left: 10px;
+    padding : 10px;
     margin-top: 0px;
     border: 0px;
   
   }
+
+
 }
 
 /* about me block ends */
