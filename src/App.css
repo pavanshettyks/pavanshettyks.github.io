@@ -50,7 +50,7 @@ Header{
   #myNav #iconNav {
     display: block;
   }
-  
+
   #myNavdisplay #iconNav {
     display: block;
   }
@@ -58,7 +58,7 @@ Header{
 
 @media screen and (max-width: 600px) {
   #myNavdisplay {
-    position: absolute; background-color: #780206; display: flex; 
+    position: absolute; background-color: #780206; display: flex;
     flex-direction: column;
     height: 340px;
     margin:0;
@@ -103,6 +103,12 @@ Header{
   background: -webkit-linear-gradient(to right, #780206, #061161); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #8b1d1f, hsl(233, 70%, 22%));
 
+}
+
+@media screen and (max-width: 600px) {
+#home{
+  height:auto;
+}
 }
 
 
@@ -227,7 +233,7 @@ Header{
 }
 
 #education{
- 
+
   padding:0px 2px 0px 115px;
   flex:2.5;
 }
@@ -250,7 +256,7 @@ Header{
 
 }
 #skill {
- 
+
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -264,7 +270,7 @@ Header{
     height:auto;
   }
   #education{
- 
+
     padding: 10px ;
     flex:2.5;
   }
@@ -274,7 +280,7 @@ Header{
     padding : 10px;
     margin-top: 0px;
     border: 0px;
-  
+
   }
 
 
@@ -309,7 +315,7 @@ Header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .ContactContainer h3{
@@ -342,22 +348,22 @@ ContactLeft h3{
   text-align: center;
   align-items: center;
   margin-top: 55px;
- 
+
 }
 
 .ContactRight hr {
   border-top: 5px dotted black;
   width: 50%;
   align-self: center;
- 
-  
+
+
 }
 
 .ContactRight i{
   padding: 18px;
   font-weight: bold;
   font-size: 2em;
-  
+
 }
 
 
@@ -378,7 +384,7 @@ ContactLeft h3{
   .ContactLeft{
     /* width: 98%; */
     padding-top: 6em;
- 
+
   }
 
   .display_pic{
@@ -393,4 +399,3 @@ ContactLeft h3{
 
 
 /* contact div css ends*/
-
