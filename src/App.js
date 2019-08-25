@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import { Layout, Header, Navigation,  Content } from 'react-mdl';
 //import { Link } from 'react-router-dom';
+import resume from './images/Pavan_Kumar_Resume.pdf'
 
 import Main from './components/Main'
 
@@ -43,12 +44,14 @@ function App() {
     <Layout fixedHeader>
         <Header title={<a  onClick= {(e)=> scrollSmoothTo(e,'home')} href="#home" id="title"><strong> Pavan Kumar K S</strong></a>} >
             <Navigation  className="myNav" id="myNav">
+                
                 <a href="#1" id ="iconNav" onClick= {(e)=> changeNavBar(e)}>
                     <i className ="fa fa-bars"></i>
                 </a>
+                <a onClick= {(e)=> scrollSmoothTo(e,'home')} id ="nav_home" href="#home">Home</a>
                 <a onClick= {(e)=> scrollSmoothTo(e,'aboutme')} href="#aboutme">About Me</a>
                 <a onClick= {(e)=> scrollSmoothTo(e,'projects')}href="#projects">Projects</a>
-                <a onClick= {(e)=> scrollSmoothTo(e,'skills')}  href="#skills">Skills</a>
+                <a href={resume} target= "_blank" rel="noopener noreferrer">Resume</a>
                 <a onClick= {(e)=> scrollSmoothTo(e,'contact')} href="#contact">Contact</a>
                 
             </Navigation>

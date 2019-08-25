@@ -1,5 +1,4 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom';
 
 import LandingPage from './LandingPage';
 import ContactMe from './ContactMe';
@@ -13,9 +12,7 @@ export default function Main() {
                 <LandingPage />
                 <AboutMe />
                 <Projects />
-                <Skills />  
-                 
-                 <ContactMe />
+                <ContactMe />
         </div>
     )
 }
